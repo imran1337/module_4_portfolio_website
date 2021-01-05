@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.half_width {
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.center {
+    margin: auto;
+    width: 40%;
+    /* border: 3px solid green;/ */
+    /* padding: 10px; */
+  }
+
+  .clr {
+      clear: both;
+  }
+
+/* welcome section start */
+
+#welcome {
+    background:#f4f4f4;
+    background-image: url('../img/top-banner.png');
+    background-repeat: no-repeat;
+    height: 70vh;
+    position: relative;
+}
+
+.left-side-content {
+    float: left;
+    margin: 50px 20px;
+}
+
+ h1 {
+    font-size: 60px;
+}
+
+.h1_second {
+    margin: 40px 0;
+}
+
+.left-side-content h3,
+.right-side-content h3 {
+    font-size: 22px;
+    /* margin: 60px 0 20px 0; */
+}
+
+.left-side-content h1 span {
+    /* display: block; */
+    /* margin: 30px 0 10px 0; */
+    color: red;
+}
+
+p {
+    color: dimgray;
+    font-size: 18px;
+    margin: 30px 0;
+}
+
+.btn_hire_me {
+font-family: 'Poppins', sans-serif;
+text-decoration: none;
+background-image: linear-gradient(45deg, lightSalmon, tomato);
+padding: 10px 20px;
+border-radius: 5px;
+color: white;
+font-weight: 700;
+/* font-size: 16px; */
+text-transform: uppercase;
+border: none;
+cursor: pointer;
+}
+
+.right-side-content{
+    /* width: 40%; */
+    float: right;
+    margin-right: 5%;
+    padding-right: 2%;
+    position: relative;
+}
+
+.right-side-content img,
+.left-side-content img {
+    width: 100%;
+    
+}
+
+
+/* welcome section end */
+
+/* deram section start */
+
+#dream {
+    height: 50vh;
+    background-image: url('../img/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: 100%;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+.right-side-content button {
+font-family: 'Poppins', sans-serif;
+text-decoration: none;
+background-image: linear-gradient(45deg, lightSalmon, tomato);
+padding: 10px 15px;
+border-radius: 5px;
+color: white;
+font-weight: 700;
+border: none;
+cursor: pointer;
+}
+
+/* deram section end */
+
+/* exp section start */
+#experiences{
+    height: 50vh;
+    background-image: url('../img/exp-bg.png');
+    background-repeat: no-repeat;
+}
+
+.exp_heading{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.card,
+.card2{
+    text-align: center;
+    width: 40%;
+    height: 400px;
+    padding: 2%;
+    margin-top: 3%;
+    overflow: scroll;
+    border-radius: 10px;
+    box-shadow: 10px 20px 20px gray;
+    
+}
+
+.card{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1;
+}
+
+.card2 {
+    margin-right: 5%;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+.float_l{
+    float: left;
+}
+.float_r{
+    float: right;
+}
+.orange_text{
+    color: orange;
+}
+/* exp section end */
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    text-emphasis: red;
+}
